@@ -1,0 +1,4 @@
+function handleCommand(command) {
+  const args = command.split(' ');
+  switch (args[0]) {
+    case 'commit':
